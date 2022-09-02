@@ -325,7 +325,6 @@ export default class SpaceInvaders extends Phaser.Scene {
       alert(`You did it!\nOur astronauts are in safe hands!\n Score: ` + score);
       music.stop();
       this.scene.stop("SpaceInvaders");
-      this.scene.start("Math", Math);
     }
 
     lose() {
@@ -337,6 +336,5 @@ export default class SpaceInvaders extends Phaser.Scene {
       alert(`You Lost :( \nMaybe we should check our math again...\nScore: ` + score);
       music.stop();
       this.scene.stop("SpaceInvaders");
-      this.scene.start("Math", Math);
     }
   }
