@@ -1,18 +1,18 @@
 {
-  "name": "webpackPhaserES6",
+  "name": "space-invaders",
   "version": "1.0.0",
   "engines": {
     "node": "7.0.0",
     "npm": "3.10.8"
   },
-  "description": "An awesome game boilerplate!",
-  "main": "src/js/main.js",
+  "description": "Simple space invaders game.",
+  "main": "src/js/index.js",
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pablo Darde",
+  "author": "Kristin Hill",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.21.0",
