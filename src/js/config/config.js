@@ -13,5 +13,5 @@ const config = {
     scene: []
   };
   
-  export default config;
+export default config;
   
