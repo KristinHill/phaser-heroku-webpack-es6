@@ -1,5 +1,4 @@
 import Phaser from 'phaser';
-import Math from "./Math";
 
 let score = 0;
 let lives = 3;
