@@ -58,17 +58,17 @@ export default class SpaceInvaders extends Phaser.Scene {
     }
 
     preload() {
-      this.load.image('bg', '../public/assets/images/spaceBG.jpg');
-      this.load.image('invader', '../public/assets/images/UfoGrey.png');
-      this.load.image('bigInvader', '../public/assets/images/UfoBlue.png');
-      this.load.image('player', '../public/assets/images/RocketGrey.png');
-      this.load.image('redLaser', '../public/assets/images/redLaser.png');
-      this.load.image('greenLaser', '../public/assets/images/greenLaser.png');
-      this.load.audio("laserBad", ["../public/assets/audio/laser3.mp3", "../public/assets/audio/laser3.ogg"]);
-      this.load.audio("game", ["../public/assets/audio/Night on the Ice.mp3"]);
-      this.load.audio("flyingShip", ["../public/assets/audio/shipFly.wav"]);
-      this.load.audio("boom", ["../public/assets/audio/boom.wav"]);
-      this.load.audio("laserGood", ["../public/assets/audio/laser5.mp3", "../public/assets/audio/laser5.ogg"]);
+      this.load.image('bg', '.../public/assets/images/spaceBG.jpg');
+      this.load.image('invader', '.../public/assets/images/UfoGrey.png');
+      this.load.image('bigInvader', '.../public/assets/images/UfoBlue.png');
+      this.load.image('player', '.../public/assets/images/RocketGrey.png');
+      this.load.image('redLaser', '.../public/assets/images/redLaser.png');
+      this.load.image('greenLaser', '.../public/assets/images/greenLaser.png');
+      this.load.audio("laserBad", [".../public/assets/audio/laser3.mp3", ".../public/assets/audio/laser3.ogg"]);
+      this.load.audio("game", [".../public/assets/audio/Night on the Ice.mp3"]);
+      this.load.audio("flyingShip", [".../public/assets/audio/shipFly.wav"]);
+      this.load.audio("boom", [".../public/assets/audio/boom.wav"]);
+      this.load.audio("laserGood", [".../public/assets/audio/laser5.mp3", ".../public/assets/audio/laser5.ogg"]);
     }
 
     create() {
