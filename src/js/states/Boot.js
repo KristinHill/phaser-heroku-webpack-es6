@@ -1,4 +1,4 @@
-var Boot = function() {}
+const Boot = function() {}
 
 Boot.prototype = {
 

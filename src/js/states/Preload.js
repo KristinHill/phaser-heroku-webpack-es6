@@ -1,4 +1,4 @@
-var Preload = function(){};
+const Preload = function(){};
 
 Preload.prototype = {
 
